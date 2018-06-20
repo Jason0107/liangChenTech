@@ -1,0 +1,23 @@
+<!--pages/test/test.wxml-->
+<!-- <text>pages/test/test.wxml</text> -->
+
+<import src="../template/header.wxml"/>
+<import src="../template/footer.wxml"/>
+
+<template is="header">
+</template>
+
+<view>{{text}}</view>
+<button bindtap="changeText"> Change normal data </button>
+<view>{{num}}</view>
+<button bindtap="changeNum"> Change normal num </button>
+<view>{{array[0].text}}</view>
+<button bindtap="changeItemInArray"> Change Array data </button>
+<view>{{object.text}}</view>
+<button bindtap="changeItemInObject"> Change Object data </button>
+<view>{{newField.text}}</view>
+<button bindtap="addNewField"> Add new data </button>
+
+<button type='primary' bindtap='btnClick'>{{btnText}}</button>
+<text wx:if="{{isTextShow}}">{{text1}}</text>
+<view wx:for="{{news}}" wx:for-item="newsItem">{{index}}:{{newsItem}}</view>

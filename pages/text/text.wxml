@@ -1,0 +1,4 @@
+<!--pages/text/text.wxml-->
+<text>pages/text/text.wxml</text>
+<view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
+<!-- <map longitude="longitude" latitude="latitude"></map> -->
