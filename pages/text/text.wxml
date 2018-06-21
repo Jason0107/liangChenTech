@@ -2,3 +2,45 @@
 <text>pages/text/text.wxml</text>
 <view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
 <!-- <map longitude="longitude" latitude="latitude"></map> -->
+
+<!-- <view wx:for="{{array}}" wx:key="key"> {{item}} </view>
+
+<template name="staffName">
+  <view>
+    FirstName: {{firstName}}, LastName: {{lastName}}
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>
+
+
+<view wx:for="{{[zero, 1, 2, 3, 4]}}" wx:key="key2"> {{item}}+{{index}} </view> -->
+
+
+<template name="objectCombine">
+  <view>
+    {{for}}, {{bar}}
+  </view>
+</template>
+
+<view>
+{{a}}------------
+</view>
+
+<template is="objectCombine" data="{{for:a,bar:b}}"></template>
+
+
+<template name="objectCombine2">
+  <view wx:for="{{[a,b,c,d,e]}}" wx:key="key3">
+    {{item}}
+  </view>
+</template>
+
+
+<template is="objectCombine2" data="{{...obj1, ...obj2, e: 5}}"></template>
+
+<!-- <input value="id:{{item.id}}"   wx:for="{{input_data}}"  wx:key="unique"  /> -->
+
+

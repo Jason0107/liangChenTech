@@ -21,7 +21,48 @@ Page({
    */
 
   data: {
-
+    array: [1, 2, 3, 4, 5],
+    staffA: {
+      firstName: 'Hulk',
+      lastName: 'Hu'
+    },
+    staffB: {
+      firstName: 'Shang',
+      lastName: 'You'
+    },
+    staffC: {
+      firstName: 'Gideon',
+      lastName: 'Lin'
+    },
+    zero: 0,
+    a: 0,
+    b: 1,
+    
+    input_data: [{
+        id: 1,
+        unique: "unique1"
+      },
+      {
+        id: 2,
+        unique: "unique2"
+      },
+      {
+        id: 3,
+        unique: "unique3"
+      },
+      {
+        id: 4,
+        unique: "unique4"
+      },
+    ],
+    obj1: {
+      a: 1,
+      b: 2
+    },
+    obj2: {
+      c: 3,
+      d: 4
+    }
   },
 
   /**
@@ -31,7 +72,7 @@ Page({
     console.log(event)
   },
 
-  
+
 
   /**
    * 生命周期函数--监听页面加载
