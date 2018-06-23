@@ -43,4 +43,13 @@
 
 <!-- <input value="id:{{item.id}}"   wx:for="{{input_data}}"  wx:key="unique"  /> -->
 
+<!-- <view wx:for="{{array}}">
+  {{index}}: {{item.message}}
+</view> -->
 
+
+<view>view</view>
+ <swiper>123</swiper> 
+<view>view</view>
+<scroll-view scroll-y style='height:200px'>scroll-view</scroll-view>
+<view>view</view>

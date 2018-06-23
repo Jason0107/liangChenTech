@@ -37,6 +37,12 @@ Page({
     zero: 0,
     a: 0,
     b: 1,
+
+    array: [{
+      message: 'foo',
+    }, {
+      message: 'bar'
+    }],
     
     input_data: [{
         id: 1,
